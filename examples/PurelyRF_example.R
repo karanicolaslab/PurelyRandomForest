@@ -38,7 +38,7 @@ th <- round(rnorm(10000, mean = 0, sd = 1),4)
 test <- data.frame(cbind(ta,tb,tc,td,te,tf,tg,th))
 colnames(test) <- c('A','B', 'C', 'D','E', 'F', 'G','H')
 
-## RANDOM FOREST
+## PURELY RANDOM FOREST
 ## apply random_reg_tree function 100 times and each time it using a different seed
 ## there is no sampling of any kind
 ## minsize = 5 means the tree will stop splitting when either or both of the daughter nodes have less than or equal to 5 samples. Daughter nodes are then declared as leaf nodes.
