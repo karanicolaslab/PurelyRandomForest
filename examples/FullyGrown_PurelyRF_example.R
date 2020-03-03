@@ -40,7 +40,7 @@ th <- round(rnorm(1000, mean = 0, sd = 1),4)
 test <- data.frame(cbind(ta,tb,tc,td,te,tf,tg,th))
 colnames(test) <- c('A','B', 'C', 'D','E', 'F', 'G','H')
 
-## RANDOM FOREST
+## FULLY GROWN PURELY RANDOM FOREST
 ## apply random_reg_tree function 100 times and each time it using a different seed
 ## there is no sampling of any kind
 ## minsize = 1 means the tree will be grown until there is a single data point on the leaf node.
