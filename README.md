@@ -6,3 +6,7 @@ Path: ../examples/PurelyRF_example.R
 
 Example 2: Purely Random Forest (ntree = 100, nodesize = 1, mtry = number of features)
 Path: ../examples/FullyGrown_PurelyRF_example.R
+
+Sample Commands:
+cd ~/PurelyRandomForest/examples/
+Rscript FullyGrown_PurelyRF_example.R
