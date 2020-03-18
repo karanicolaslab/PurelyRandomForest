@@ -27,14 +27,14 @@ data$I <- data$A + data$B + data$C + data$D + data$E + data$F + data$G + data$H
 eq <- I~A+B+C+D+E+F+G+H
 
 ##TEST set
-ta <- round(rnorm(10000, mean = 0, sd = 1),4)
-tb <- round(rnorm(10000, mean = 0, sd = 1),4)
-tc <- round(rnorm(10000, mean = 0, sd = 1),4)
-td <- round(rnorm(10000, mean = 0, sd = 1),4)
-te <- round(rnorm(10000, mean = 0, sd = 1),4)
-tf <- round(rnorm(10000, mean = 0, sd = 1),4)
-tg <- round(rnorm(10000, mean = 0, sd = 1),4)
-th <- round(rnorm(10000, mean = 0, sd = 1),4)
+ta <- round(rnorm(1000, mean = 0, sd = 1),4)
+tb <- round(rnorm(1000, mean = 0, sd = 1),4)
+tc <- round(rnorm(1000, mean = 0, sd = 1),4)
+td <- round(rnorm(1000, mean = 0, sd = 1),4)
+te <- round(rnorm(1000, mean = 0, sd = 1),4)
+tf <- round(rnorm(1000, mean = 0, sd = 1),4)
+tg <- round(rnorm(1000, mean = 0, sd = 1),4)
+th <- round(rnorm(1000, mean = 0, sd = 1),4)
 test <- data.frame(cbind(ta,tb,tc,td,te,tf,tg,th))
 colnames(test) <- c('A','B', 'C', 'D','E', 'F', 'G','H')
 
